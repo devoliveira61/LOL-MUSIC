@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="public/favicon.jpg" />
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <!-- Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <title>LOL Music</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header__options">
+        <i class="material-symbols-outlined" id="previous"> arrow_back_ios </i>
+        <span id="track__name">Warriors - LOL</span>
+        <i class="material-symbols-outlined" id="next"> arrow_forward_ios </i>
+      </div>
+      <div class="bottom__controls">
+        <div class="controls__play">
+          <i class="material-symbols-outlined"> skip_previous </i>
+          <i class="material-symbols-outlined" id="pause"> pause_circle </i>
+          <i class="material-symbols-outlined"> skip_next </i>
+        </div>
+        <div class="progress__bar">
+          <progress id="progress" value="45" max="100">32%</progress>
+          <h6 id="credits">Developed by Daniel and Viana - 2023</h6>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.863);
+}
+
+.container {
+  width: 417px;
+  height: 735px;
+  border-radius: 20px;
+  background: url(/src/img/irelia.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200vh;
+  object-fit: contain;
+}
+
+/* Header Controls Background */
+
+.container .header__options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.container .header__options span {
+  letter-spacing: 2px;
+}
+
+.container .header__options i {
+  font-weight: bold;
+}
+
+.container .header__options i:hover {
+  cursor: pointer;
+}
+
+.container .header__options i:active {
+  transform: scale(1.1);
+}
+
+/* Bottom Controls Play */
+
+.container .bottom__controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 27rem;
+  text-align: center;
+}
+
+.container .bottom__controls .controls__play {
+  display: flex;
+  align-items: center;
+}
+
+.container .bottom__controls i {
+  font-size: 3.5rem;
+  margin: 2px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.container .bottom__controls i:active {
+  transform: scale(1.1);
+}
+
+.container .bottom__controls #pause {
+  font-size: 7rem;
+}
+
+.container .bottom__controls .progess__bar,
+#progress {
+  background-color: #c7c7c7;
+  width: 100%;
+  height: 5px;
+  border-radius: 500px;
+  cursor: pointer;
+}
+
+.container .bottom__controls .progess__bar,
+#progress::-webkit-progress-bar {
+  background-color: #c7c7c7;
+  border-radius: 500px;
+}
+
+.container .bottom__controls .progess__bar,
+#progress::-webkit-progress-value {
+  background-color: #ffffff;
+  border-radius: 500px;
+}
+
+#credits {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 5.2rem;
+  font-weight: 100;
+}
