@@ -110,6 +110,17 @@ body {
   font-weight: 100;
 }
 
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 5rem;
+}
+
+footer h6{
+  font-weight: 100;
+}
+
 /* @media (max-width: 600px) {
   .container {
     width: 100%;
