@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Karla", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -15,7 +14,6 @@ body {
   min-height: 100vh;
   overflow: auto;
 }
-
 
 .container {
   width: 417px;
@@ -36,13 +34,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 600;
   transition: all 0.2s ease;
-}
-
-.container .header__options span {
-  letter-spacing: 2px;
 }
 
 .container .header__options i {
@@ -75,7 +69,6 @@ body {
 
 .container .bottom__controls i {
   font-size: 3.5rem;
-  margin: 2px;
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -108,7 +101,6 @@ body {
   background-color: #ffffff;
   border-radius: 500px;
 }
-
 
 #credits {
   display: flex;

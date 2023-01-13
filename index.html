@@ -37,16 +37,17 @@
       </div>
       <div class="bottom__controls">
         <div class="controls__play">
-          <i class="material-symbols-outlined"> skip_previous </i>
-          <i class="material-symbols-outlined" id="pause"> pause_circle </i>
-          <i class="material-symbols-outlined"> skip_next </i>
+          <i class="material-symbols-outlined" id="previous__track"> skip_previous </i>
+          <i class="material-symbols-outlined" id="pause"> play_circle </i>
+          <i class="material-symbols-outlined" id="next__track"> skip_next </i>
         </div>
         <div class="progress__bar">
-          <progress id="progress" value="45" max="100"></progress>
-          <h6 id="credits">Developed by Daniel and Viana - 2023</h6>
+        <span id="seconds">00:00</span>
+          <progress id="progress" value="0" max="100"></progress>
         </div>
       </div>
     </div>
+    <audio src="src/audio/warriors.mp3" id="audio"></audio>
     <script src="src/js/main.js"></script>
   </body>
 </html>
