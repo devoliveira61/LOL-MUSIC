@@ -12,7 +12,7 @@
 
 </br>
 
-<img src="https://i.ibb.co/Kw0nTLS/127-0-0-1-5500-1.png" alt="Imagem do LOL MUSIC" />
+<img src="https://i.ibb.co/rxks04G/capa.png" alt="Imagem do LOL MUSIC" />
 
 <strong><a href="https://lol-music.surge.sh">Clique aqui e acesse<a></strong>
 
