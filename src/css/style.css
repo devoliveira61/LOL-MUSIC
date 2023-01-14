@@ -80,6 +80,17 @@ body {
 .container .bottom__controls #pause {
   font-size: 7rem;
 }
+.container .bottom__controls .progress__bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container .bottom__controls .progess__bar, progress{
+  margin-top: 3px;
+}
 
 .container .bottom__controls .progess__bar,
 #progress {
